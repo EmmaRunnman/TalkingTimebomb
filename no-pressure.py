@@ -12,7 +12,7 @@ def run_friendly_session():
     furhat.say(text="Just remember to stay on topic and enjoy the conversation! Good luck!", blocking=True)
     furhat.gesture(name="Smile")
 
-    # List of motivational messages (only for minutes 5 down to 1)
+    # List of motivational messages
     encouragements = [
         "You're doing awesome, keep building on each other's thoughts!",
         "Great work so far, let's keep the discussion going!",
