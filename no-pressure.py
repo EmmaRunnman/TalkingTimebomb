@@ -12,7 +12,7 @@ def run_friendly_session():
     furhat.say(text="Just remember to stay on topic and enjoy the conversation! Good luck!", blocking=True)
     furhat.gesture(name="Smile")
 
-    # List of motivational messages
+    # List of motivational messages 
     encouragements = [
         "You're doing awesome, keep building on each other's thoughts!",
         "Great work so far, let's keep the discussion going!",
@@ -35,8 +35,15 @@ def run_friendly_session():
     print("Time's up!")
     furhat.say(text="That brings us to the end of our discussion. Thank you all for sharing your thoughts today. It's been a pleasure listening to all of you.", blocking=True)
     furhat.say(text="Now, you'll fill out a post-discussion form, which will be handed to you by the experiment coordinator.", blocking=True)
-    time.sleep(10)
+    
+    #Short pause 
+    time.sleep(5)x
     furhat.say(text="Please rate your experience during the first discussion by circling a number from 1 to 10 for each question", blocking=True)
+
+    #Short pause 
+    time.sleep(10)
+    furhat.say(text="After you all have completed the form, we will begin our next part of the experiment", blocking=True)
+
 
 # Run the session
 run_friendly_session()
