@@ -17,7 +17,7 @@ def run_friendly_session():
         "You're doing awesome, keep building on each other's thoughts!",
         "Great work so far, let's keep the discussion going!",
         "Wonderful collaboration happening here!",
-        "Nice thoughts, let's keep the conversation flowing!",
+        "Let's keep the conversation flowing!",
         "You're all doing a fantastic job, stay focused!",
     ]
 
