@@ -37,7 +37,7 @@ def run_friendly_session():
     furhat.say(text="Now, you'll fill out a post-discussion form, which will be handed to you by the experiment coordinator.", blocking=True)
     
     #Short pause 
-    time.sleep(5)x
+    time.sleep(5)
     furhat.say(text="Please rate your experience during the first discussion by circling a number from 1 to 10 for each question", blocking=True)
 
     #Short pause 
