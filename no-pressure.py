@@ -21,7 +21,7 @@ def run_friendly_session():
         "You're all doing a fantastic job, stay focused!",
     ]
 
-    # Initial announcement: 6 minutes left 
+    # Announcement: 6 minutes left 
     print("6 minutes left")
     time.sleep(60)  # Wait first minute 
 
