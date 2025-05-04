@@ -35,13 +35,13 @@ def run_non_pressure_session():
             furhat.say(text="Let me repeat the instructions for you.", blocking=True)
 
     # Initial time announcement
-    print("6 minutes left")
+    print("7 minutes left")
     time.sleep(60)
 
     # Countdown with encouragements
-    for minute_left in range(5, 0, -1):
+    for minute_left in range(6, 0, -1):
         print(f"{minute_left} minutes left")
-        furhat.say(text=encouragements[5 - minute_left], blocking=True)
+        furhat.say(text=encouragements[6 - minute_left], blocking=True)
         time.sleep(60)
 
     # Discussion ends
